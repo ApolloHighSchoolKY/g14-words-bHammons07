@@ -32,7 +32,7 @@ public class Word
 		 
 		for(int i = 0; i < word.length(); i++)
 		{
-			if(VOWELS.contains(word.substring(i,i+1)))
+			if(VOWELS.contains(word.substring(i,i+1))) // or if(VOWELS.indexOf(word.substring(i,i+1) > -1))
 			{
 				count++;
 			}
