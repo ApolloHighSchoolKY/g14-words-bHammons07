@@ -1,6 +1,6 @@
 public class WordTester
 {
-    public static void main (String[] args)
+    public static void main(String[] args)
     {
         Word word = new Word("word");
 
@@ -9,6 +9,8 @@ public class WordTester
         System.out.println("Length = " + word.getLength());
 
         word.setWord("newWord");
+
+        System.out.println("");
 
         System.out.println(word);
         System.out.println("Num of vowels = " + word.getNumVowels());

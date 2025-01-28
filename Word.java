@@ -9,7 +9,6 @@ public class Word
 	//Class field(variables)
 	private static final String VOWELS = "AEIOUaeiou";   //static means only one
 
-
 	public Word()
 	{
 		word = "";
@@ -17,7 +16,7 @@ public class Word
 
 	public Word(String newWord)
 	{
-		setWord(word);
+		setWord(newWord);
 	}
 
 	public void setWord(String newWord)
@@ -30,15 +29,16 @@ public class Word
 		int count = 0;
 
 		//Loop for every letter in "word"
+		 
 		for(int i = 0; i < word.length(); i++)
 		{
-			if(VOWELS.indexOf.word.substring(i,i+1))
+			if(VOWELS.contains(word.substring(i,i+1)))
 			{
 				count++;
 			}
 		}
 			//Use indexOf to see if the letter is in the string "vowels"
-
+		
 		return count;
 	}
 
