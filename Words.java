@@ -13,7 +13,8 @@ public class Words
 
 	public Words(String s)
 	{
-		//wordList = new ArrayList<Word>();
+		wordList = new ArrayList<Word>();
+		
 		setWords(s);
 	}
 
